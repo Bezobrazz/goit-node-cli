@@ -7,7 +7,7 @@ program
   .option("-p, --phone <type>", "user phone");
 
 program.parse();
-
+console.log("hello ");
 const options = program.opts();
 
 // TODO: рефакторити
